@@ -1,0 +1,30 @@
+PASSO A PASSO DO QUE EU FIZ NA VERSAO WINDOWS
+
+
+baixei o git |
+
+winget install --id Git.Git -e --source winget
+git --version
+
+
+git config --global user.name
+git config --global user.email
+
+git config --global --list (so pra verificar se deu certo)
+
+git clone "link do github" cd nome_arquivo
+echo "#Projeto PPI - Windows"> README.md
+git add README.md
+git commit -m "texto"
+git push -u origin main
+git branch -M main
+git push -u origin main
+
+
+
+
+ALTERAÇÕES DO OUTRO ARQUIVO VINDO DO LINUX E SALVANDO NO GIT
+
+git add nome.arquivo
+git commit m "texto"
+git push
