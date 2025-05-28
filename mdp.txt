@@ -1,1 +1,32 @@
+PASSO A PASSO para subir um arquivo no GIT pelo Linux
 
+
+cd Documentos/nome do arquivo #acessar a porta
+ls #listar
+git init #inicializar o repertorio
+git mdp.txt #adicione arquivo
+git commit -m "Meu primeiro commit"
+git remote add origin https://linkdoresositorio
+git push -u origin main
+git branch -M main
+git push -u origin main
+git config --global user.name ""
+git config --global user.email ""
+
+
+NAO USE README NO REPOSITORIO, VAI DAR MUITOS ERROS
+
+git pull origin main--allow-unrelated-histories --no-rebase     --> puxe o conteudo do github mesmo que os historicoa sejam diferentes e mescle com que esta arquivo
+
+
+depois aparece -> Auto-merging ...
+Merge made by the 'ort' strategy.
+
+
+
+git push -u origin main
+
+TELA GNU -> (Ctrl + O) + (Enter) + (Ctrl + X)
+
+git pull origin main--allow-unrelated-histories
+git push -u origin main
